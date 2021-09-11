@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Rissole.EntityFrameworkCore.Ase</AssemblyName>
+    <Version>3.1.2.1</Version>
+    <Description>A very barebones implementation of EntityFrameworkCore. Supports basic CRUD interactions. Lots of untested features.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>EntityFrameworkCore ASE Sybase</PackageTags>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Added "yes no char as boolean" Type</PackageReleaseNotes>
+    <AssemblyVersion>3.1.2.1</AssemblyVersion>
+    <FileVersion>3.1.2.1</FileVersion>
+    <PackageProjectUrl>https://github.com/JiarongGu/Rissole.EntityFrameworkCore.Ase</PackageProjectUrl>
+    <Author>Jiarong Gu</Author>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdoNetCore.AseClient" Version="0.16.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.2" />
+  </ItemGroup>
+
+</Project>
