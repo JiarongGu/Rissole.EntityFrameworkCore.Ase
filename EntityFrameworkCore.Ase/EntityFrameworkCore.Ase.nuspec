@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Rissole.EntityFrameworkCore.Ase</id>
+    <version>3.1.18.1</version>
+    <authors>jiarong.gu</authors>
+    <owners>jiarong.gu</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A very barebones implementation of EntityFrameworkCore. Supports basic CRUD interactions. Lots of untested features.</description>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <projectUrl>https://github.com/JiarongGu/Rissole.EntityFrameworkCore.Ase</projectUrl>
+    <license type="expression">MIT</license>
+    <dependencies>
+      <group>
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.18" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="3.1.18" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
